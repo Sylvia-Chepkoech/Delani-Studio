@@ -1,0 +1,8 @@
+*{
+  margin: 0%;
+}
+.container {
+  background-image: url(/images/backgrounds/h_img.jpg);
+  text-align: center;
+  color: white;
+}
