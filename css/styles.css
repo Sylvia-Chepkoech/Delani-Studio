@@ -1,7 +1,7 @@
 *{
   margin: 0%;
 }
-.container {
+.welcome {
   background-image: url(/images/backgrounds/h_img.jpg);
   background-size: cover;
   background-position: center;
@@ -26,4 +26,7 @@
   padding-bottom: 220px;
   padding-top: 150px;
 
+}
+.footnote {
+  text-align: center;
 }
