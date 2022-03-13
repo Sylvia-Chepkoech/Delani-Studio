@@ -15,3 +15,15 @@
 .about {
   text-align: center;
 }
+
+.services {
+  background-image: url(/images/backgrounds/s_image.jpg);
+  background-position: center;
+  background-size: auto;
+  background-attachment: scroll;
+  color: white;
+  text-align: center;
+  padding-bottom: 220px;
+  padding-top: 150px;
+
+}
