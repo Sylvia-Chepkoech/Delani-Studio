@@ -40,12 +40,6 @@ $(document).ready(function() {
   });
 });
 
-// $(document).ready(function(){
-//   $(".p8").mouseover(function(){
-//     $(".eight").show(); 
-//   });
-// });
-
 $(document).ready(function(){
   $("#BLANK").mouseover(function(){
       $(".one").show(0);
@@ -55,5 +49,89 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#BLANK").mouseleave(function(){
       $(".one").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#MIGHTY").mouseover(function(){
+      $(".two").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#MIGHTY").mouseleave(function(){
+      $(".two").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#PYRAMIDS").mouseover(function(){
+      $(".three").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#PYRAMIDS").mouseleave(function(){
+      $(".three").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#JIM").mouseover(function(){
+      $(".four").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#JIM").mouseleave(function(){
+      $(".four").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#GOOD").mouseover(function(){
+      $(".five").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#GOOD").mouseleave(function(){
+      $(".five").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#FORM").mouseover(function(){
+      $(".six").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#FORM").mouseleave(function(){
+      $(".six").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#BURNED").mouseover(function(){
+      $(".seven").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#BURNED").mouseleave(function(){
+      $(".seven").hide(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#GIRAFFE RESTAURANT").mouseover(function(){
+      $(".eight").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#GIRAFFE RESTAURANT").mouseleave(function(){
+      $(".eight").hide(0);
   });
 });
