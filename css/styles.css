@@ -70,14 +70,23 @@
 .product_info {
   display: none;
 }
-.port {
-  position: relative;
-  margin-right: 100px;
+
+.portfolio_h2 {
+  text-align: center;
 }
-.image {
+
+.port {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+#portfolio img {
   display: block;
-  width: 100%;
+  width: 110%;
   height: auto;
+  padding: 20px;
+  
 }
 .overlay {
   position: relative;
@@ -92,7 +101,7 @@
   opacity: 0;
   transition: .5s ease;
   border: 5px solid white; */
-  display: none;
+  
 }
 .text {
   color: white;
@@ -103,24 +112,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-.overlay:hover {
-  opacity:1
+  display: none;
 }
 
-.portfolio_h2 {
-  text-align: center;
-}
 
 .contact_h2 {
   text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-weight: 500;
 }
 .contact {
   background-image: url(/images/backgrounds/c_image.jpg);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: scroll;
-  padding-bottom: 50px;
+  padding-bottom: 400px;
 }
 .footer {
   text-align: center;
