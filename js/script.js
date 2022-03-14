@@ -12,12 +12,20 @@ $(document).ready(function() {
   });
 });
 
-
 $(document).ready(function() {
-  $(".development_icon").click(function() {
+  $(".icons2").click(function() {
     $(".development_info").toggle();
+      $(".icons2").toggle();  
   });
 });
+
+$(document).ready(function() {
+  $(".development_info").click(function() {
+    $(".icons2").toggle();
+      $(".development_info").toggle();  
+  });
+});
+
 
 $(document).ready(function() {
   $(".product_icon").click(function() {
