@@ -1,3 +1,4 @@
+// what we do function
 $(document).ready(function() {
   $(".icons1").click(function() {
     $(".design_info").toggle();
@@ -40,6 +41,7 @@ $(document).ready(function() {
   });
 });
 
+// portfolio function
 $(document).ready(function(){
   $("#BLANK").mouseover(function(){
       $(".one").show(0);
@@ -125,13 +127,28 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#GIRAFFE RESTAURANT").mouseover(function(){
+  $("#GIRAFFE").mouseover(function(){
       $(".eight").show(0);
   });
 });
 
 $(document).ready(function(){
-  $("#GIRAFFE RESTAURANT").mouseleave(function(){
+  $("#GIRAFFE").mouseleave(function(){
       $(".eight").hide(0);
+  });
+});
+
+// contact us
+$(document).ready(function(){
+  $("form#formSubmit").submit(function(event){
+    var name=$("input#Name").val();
+    var mail=$("input#Email").val();
+    var message=$("input#Message").val();
+
+    if ($("input#Name").val() && $("input#Email").val()){
+      alert(name + ", We have received your message. Thank you for reaching us.");
+    }else {
+      alert("Enter your name and email again");
+    }
   });
 });

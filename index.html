@@ -11,6 +11,10 @@
   <!--js links-->
   <script src="./js/jquery-3.6.0.js"></script>
   <script src="./js/script.js"></script>
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
   <!--welcome-->
@@ -179,7 +183,7 @@
     <div class="col-md-12">
       <div class="contact">
         <h2 class="contact_h2">CONTACT US</h2>
-        <form onSubmit="formSubmit(event)">
+        <form id="formSubmit" onSubmit="formSubmit(event)">
           <div id="nameForm">
             <label for="Name"></label>
             <input type="text" id="Name" name="Name" placeholder="Name..." required>

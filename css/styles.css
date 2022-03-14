@@ -85,22 +85,8 @@
   display: block;
   width: 110%;
   height: auto;
-  padding: 20px;
-  
+  padding: 20px;  
 }
-/* .overlay {
-  position: relative;
-  top: -150px;
-  background-color: white; */
-  /* top: 30px;
-  bottom: 0;
-  left: 40px;
-  right: 0;
-  height: 70%;
-  width: 70%;
-  opacity: 0;
-  transition: .5s ease;
-  border: 5px solid white; */
 
 .overlay {
   position: relative;
@@ -109,10 +95,7 @@
   left: 60px;
   right: 50px;
   height: 70%;
-  width: 70%;
-}
-.overlay:hover {
-  opacity: 1;
+  width: 70%; 
 }
 
 .one, .two, .three, .four, .five, .six, .seven, .eight {
@@ -120,8 +103,7 @@
   font-weight: 900;
   font-size: 20px;
   display: none;
-  top: 60px;
- border: 4px solid white;
+  border: 4px solid white;
  
 }
 
