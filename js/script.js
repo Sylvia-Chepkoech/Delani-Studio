@@ -26,10 +26,17 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function() {
+  $(".icons3").click(function() {
+    $(".product_info").toggle();
+      $(".icons3").toggle();  
+  });
+});
 
 $(document).ready(function() {
-  $(".product_icon").click(function() {
-    $(".product_info").toggle();
+  $(".product_info").click(function() {
+    $(".icons3").toggle();
+      $(".product_info").toggle();  
   });
 });
 
