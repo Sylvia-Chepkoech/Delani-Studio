@@ -40,8 +40,20 @@ $(document).ready(function() {
   });
 });
 
+// $(document).ready(function(){
+//   $(".p8").mouseover(function(){
+//     $(".eight").show(); 
+//   });
+// });
+
 $(document).ready(function(){
-  $("#JIM").mouseover(function(){
-    $(".overlay").show(); 
+  $("#BLANK").mouseover(function(){
+      $(".one").show(0);
+  });
+});
+
+$(document).ready(function(){
+  $("#BLANK").mouseleave(function(){
+      $(".one").hide(0);
   });
 });
