@@ -5,7 +5,7 @@
 }
 
 .welcome {
-  background-image: url(/images/backgrounds/h_img.jpg);
+  background-image: url(../images/backgrounds/h_img.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -22,7 +22,7 @@
 }
 
 .services {
-  background-image: url(/images/backgrounds/s_image.jpg);
+  background-image: url(../images/backgrounds/s_image.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
@@ -116,7 +116,7 @@
   font-weight: 500;
 }
 .contact {
-  background-image: url(/images/backgrounds/c_image.jpg);
+  background-image: url(../images/backgrounds/c_image.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
