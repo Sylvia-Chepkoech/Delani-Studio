@@ -1,38 +1,133 @@
 *{
   margin: 0%;
+   
 }
+
 .welcome {
   background-image: url(/images/backgrounds/h_img.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   text-align: center;
   color: white;
-  padding-bottom: 220px;
+  padding: 20rem;
+  padding-bottom: 150px;
   
 }
 
 .about {
   text-align: center;
+  line-height: 150%;
+  margin: 50px 50px;
 }
 
 .services {
   background-image: url(/images/backgrounds/s_image.jpg);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-attachment: scroll;
   color: white;
   text-align: center;
-  padding-bottom: 220px;
+  padding-bottom: 185px;
   padding-top: 150px;
+  font-size: 16px;
 
+}
+.h2-what-we-do {
+  text-align: center;
+  
+}
+
+.what-we-do {
+  text-align: center;
+  width: auto;
+  display: flex;
+  padding: 50px;
+  
+}
+.design_icon {
+  display: flex;
+  display: inline-block;
+  flex: 4;
+}
+.development_icon {
+  display: flex;
+  display: inline-block;
+  flex: 4;
+}
+.product_icon {
+  display: flex;
+  display: inline-block;
+  flex: 4;
+}
+.design_info {
+  display: none;
+}
+
+.development_info {
+  display: none;
+}
+
+.product_info {
+  display: none;
+}
+.port {
+  position: relative;
+  margin-right: 100px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: relative;
+  top: -150px;
+  background-color: white;
+  /* top: 30px;
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  height: 70%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  border: 5px solid white; */
+  display: none;
+}
+.text {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay:hover {
+  opacity:1
+}
+
+.portfolio_h2 {
+  text-align: center;
+}
+
+.contact_h2 {
+  text-align: center;
 }
 .contact {
   background-image: url(/images/backgrounds/c_image.jpg);
   background-position: center;
   background-size: auto;
   background-attachment: scroll;
+  padding-bottom: 50px;
 }
-.footnote {
+.footer {
   text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+} 
+
+.footer img {
+  margin-right: 10px;
 }
